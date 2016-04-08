@@ -1,5 +1,5 @@
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = 6-digit-7-Segment-Arduino
+PROJECT_NAME           = SegmentDisplay
 PROJECT_NUMBER         =
 PROJECT_BRIEF          =
 PROJECT_LOGO           =
@@ -74,7 +74,7 @@ WARN_IF_UNDOCUMENTED   = YES
 WARN_IF_DOC_ERROR      = YES
 WARN_NO_PARAMDOC       = NO
 WARN_FORMAT            = "$file:$line: $text"
-INPUT                  = ../../src
+INPUT                  = ../../
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c                          *.cc                          *.cxx                          *.cpp                          *.h                          *.hxx                          *.hpp                          *.h++
 RECURSIVE              = YES
