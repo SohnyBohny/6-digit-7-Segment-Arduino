@@ -32,7 +32,7 @@ class SegmentDisplay {
     // --------------------------------------------
 
     //! Constructor: all Pins will be set
-    /*
+    /*!
       \param latchPin this int saves the latchPin used for ShiftRegister
       \param clockPin this int saves the clockPin used for ShiftRegister
       \param dataPin this int saves the dataPin used for ShiftRegister
