@@ -9,13 +9,13 @@ if read_the_docs_build:
     subprocess.call('doxygen', shell=True)
 
 extensions = ['breathe']
-breathe_projects = { '6-digit-7-Segment-Arduino': 'xml' }
+breathe_projects = { 'SegmentDisplay': 'xml' }
 breathe_default_project = "6-digit-7-Segment-Arduino"
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 project = u'6-digit-7-Segment-Arduino'
-copyright = u'2015, 6-digit-7-Segment-Arduino'
+copyright = u'2016, 6-digit-7-Segment-Arduino'
 author = u'6-digit-7-Segment-Arduino'
 version = '1.0'
 release = '1.0'
