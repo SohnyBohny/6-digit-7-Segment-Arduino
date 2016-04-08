@@ -9,7 +9,7 @@ if read_the_docs_build:
     subprocess.call('doxygen', shell=True)
 
 extensions = ['breathe']
-breathe_projects = { 'SegmentDisplay': 'xml' }
+breathe_projects = { '6-digit-7-Segment-Arduino': 'xml' }
 breathe_default_project = "SegmentDisplay"
 templates_path = ['_templates']
 source_suffix = '.rst'
