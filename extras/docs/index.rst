@@ -7,8 +7,8 @@
 Class Documentation
 ===================
 
-.. doxygenclass:: 6-digit-7-Segment-Arduino
-   :project: 6-digit-7-Segment-Arduino
+.. doxygenclass:: SegmentDisplay
+   :project: SegmentDisplay
    :members:
 
 ----
