@@ -10,7 +10,7 @@ if read_the_docs_build:
 
 extensions = ['breathe']
 breathe_projects = { 'SegmentDisplay': 'xml' }
-breathe_default_project = "6-digit-7-Segment-Arduino"
+breathe_default_project = "SegmentDisplay"
 templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
