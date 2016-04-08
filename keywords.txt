@@ -1,0 +1,3 @@
+SegmentDisplay			KEYWORD1
+showChar				KEYWORD2
+updateShiftRegister		KEYWORD2
