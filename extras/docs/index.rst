@@ -12,6 +12,7 @@ If you have a quastion please do not hesitate and `ask me`_! :-)
    
    View on GitHub <https://github.com/SohnyBohny/6-digit-7-Segment-Arduino>
    usage
+   connection
 
 .. _6-digit-7-Segment Arduino-Library: https://github.com/SohnyBohny/6-digit-7-Segment-Arduino
 .. _ask me: https://github.com/SohnyBohny/6-digit-7-Segment-Arduino/issues
