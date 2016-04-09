@@ -86,7 +86,7 @@ o     |digit°|
    :width: 50pt
    :height: 50pt
 
-.. |digit°| image:: pic°.svg
+.. |digit°| image:: pico.svg
    :width: 50pt
    :height: 50pt
 
