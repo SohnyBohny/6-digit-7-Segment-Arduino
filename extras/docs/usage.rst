@@ -28,6 +28,14 @@ Call  Output
 2     |digit2|
 3     |digit3|
 4     |digit4|
+5     |digit5|
+6     |digit6|
+7     |digit7|
+8     |digit8|
+9     |digit9|
+C     |digitC|
+F     |digitF|
+o     |digit°|
 ===== ========
 
 .. |digit0| image:: https://upload.wikimedia.org/wikipedia/commons/4/49/7-segment_abcdef.svg
@@ -47,6 +55,38 @@ Call  Output
    :height: 50pt
 
 .. |digit4| image:: https://upload.wikimedia.org/wikipedia/commons/b/b0/7-segment_bcfg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit5| image:: https://upload.wikimedia.org/wikipedia/commons/9/9b/7-segment_acdfg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit6| image:: https://upload.wikimedia.org/wikipedia/commons/0/03/7-segment_acdefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit7| image:: https://upload.wikimedia.org/wikipedia/commons/6/62/7-segment_abc.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit8| image:: https://upload.wikimedia.org/wikipedia/commons/a/ab/7-segment_abcdefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit9| image:: https://upload.wikimedia.org/wikipedia/commons/7/7a/7-segment_abcdfg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digitC| image:: https://upload.wikimedia.org/wikipedia/commons/2/2d/7-segment_adef.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digitF| image:: https://upload.wikimedia.org/wikipedia/commons/a/a6/7-segment_aefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit°| image:: pic°.svg
    :width: 50pt
    :height: 50pt
 
