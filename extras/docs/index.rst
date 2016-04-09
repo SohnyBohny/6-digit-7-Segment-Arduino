@@ -3,6 +3,9 @@
 Welcome to the documentaion of my `6-digit-7-Segment Arduino-Library`_ Help yourself!
 
 If you have a quastion please do not hesitate and `ask me`_! :-)
+
+.. |SB| replace:: S\ :sub:`ohny`\ B\ :sup:`ohny`
+|SB|
    
 .. toctree::
    :maxdepth: 4
