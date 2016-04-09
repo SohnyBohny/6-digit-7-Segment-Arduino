@@ -13,12 +13,13 @@ This documentation was built using ArduinoDocs_.
 
 .. _ArduinoDocs: http://arduinodocs.readthedocs.org
 
+----
+
 Example
 -------
 .. code-block:: c
 
-   #include <SegmentDisplay.h>
-
+  #include <SegmentDisplay.h>
   int latchPin = 9; // Shiftregister
   int clockPin = 10;
   int dataPin = 8;
