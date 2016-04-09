@@ -9,7 +9,7 @@ Class Dokumentation
 
 Example
 -------
-.. code-block:: pygments.lexers.c_like.ArduinoLexer
+.. highlight:: c
 
    #include <SegmentDisplay.h>
 
