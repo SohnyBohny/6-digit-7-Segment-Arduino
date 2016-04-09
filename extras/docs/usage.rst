@@ -15,6 +15,41 @@ This documentation was built using ArduinoDocs_.
 
 ----
 
+What's about displayResorce[6][2]
+---------------------------------
+
+===== ========
+First dimension 
+--------------
+Call  Output
+===== ========
+0     |digit0|
+1     |digit1|
+2     |digit2|
+3     |digit3|
+4     |digit4|
+===== ========
+
+.. |digit0| image:: https://upload.wikimedia.org/wikipedia/commons/4/49/7-segment_abcdef.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit1| image:: https://upload.wikimedia.org/wikipedia/commons/b/be/7-segment_bc.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit2| image:: https://upload.wikimedia.org/wikipedia/commons/f/f8/7-segment_abdeg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit3| image:: https://upload.wikimedia.org/wikipedia/commons/b/be/7-segment_abcdg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |digit4| image:: https://upload.wikimedia.org/wikipedia/commons/b/b0/7-segment_bcfg.svg
+   :width: 50pt
+   :height: 50pt
+
 Example
 -------
 .. code-block:: c
