@@ -6,6 +6,12 @@ Class Dokumentation
 .. doxygenclass:: SegmentDisplay
    :project: SegmentDisplay
    :members:
+   
+----
+
+This documentation was built using ArduinoDocs_.
+
+.. _ArduinoDocs: http://arduinodocs.readthedocs.org
 
 Example
 -------
@@ -53,9 +59,3 @@ Example
     segmentDisplay.showChar(tempTest , 1000); // call display to show "1.23.45.6" for 1s
 
   }
-
-----
-
-This documentation was built using ArduinoDocs_.
-
-.. _ArduinoDocs: http://arduinodocs.readthedocs.org
