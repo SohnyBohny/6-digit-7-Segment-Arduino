@@ -9,7 +9,7 @@ Class Dokumentation
 
 Example
 -------
-.. highlight:: c
+.. code-block:: c
 
    #include <SegmentDisplay.h>
 
