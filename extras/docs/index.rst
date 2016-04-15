@@ -11,6 +11,7 @@ If you have a quastion please do not hesitate and `ask me`_! :-)
    :maxdepth: 4
    
    View on GitHub <https://github.com/SohnyBohny/6-digit-7-Segment-Arduino>
+   install
    usage
    connection
 
