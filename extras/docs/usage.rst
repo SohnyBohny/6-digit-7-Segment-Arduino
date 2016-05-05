@@ -36,6 +36,27 @@ Call  Output
 C     |digitC|
 F     |digitF|
 o     |digit°|
+A     |charA|
+b     |charb|
+C     |charC|
+d     |chard|
+E     |charE|
+F     |charF|
+G     |charG|
+H     |charH|
+I     |charI|
+J     |charJ|
+L     |charL|
+U     |charU|
+c     |charc|
+h     |charh|
+n     |charn|
+O     |charO|
+r     |charr|
+t     |chart|
+u     |charu|
+p     |charp|
+y     |chary|
 ===== ========
 
 .. |digit0| image:: https://upload.wikimedia.org/wikipedia/commons/4/49/7-segment_abcdef.svg
@@ -89,6 +110,91 @@ o     |digit°|
 .. |digit°| image:: pico.svg
    :width: 50pt
    :height: 50pt
+
+.. |charA| image:: https://upload.wikimedia.org/wikipedia/commons/2/28/7-segment_abcefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charb| image:: https://upload.wikimedia.org/wikipedia/commons/1/19/7-segment_cdefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charC| image:: https://upload.wikimedia.org/wikipedia/commons/2/2d/7-segment_adef.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |chard| image:: https://upload.wikimedia.org/wikipedia/commons/3/33/7-segment_bcdeg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charE| image:: https://upload.wikimedia.org/wikipedia/commons/8/89/7-segment_adefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charF| image:: https://upload.wikimedia.org/wikipedia/commons/a/a6/7-segment_aefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charG| image:: https://upload.wikimedia.org/wikipedia/commons/9/9b/7-segment_acdef.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charH| image:: https://upload.wikimedia.org/wikipedia/commons/5/55/7-segment_bcefg.svg
+   :width: 50pt
+   :height: 50pt
+
+.. |charI| image:: https://upload.wikimedia.org/wikipedia/commons/f/f1/7-segment_ef.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charJ| image:: https://upload.wikimedia.org/wikipedia/commons/d/d4/7-segment_bcd.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charL| image:: https://upload.wikimedia.org/wikipedia/commons/c/c6/7-segment_def.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charU| image:: https://upload.wikimedia.org/wikipedia/commons/6/64/7-segment_bcdef.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charc| image:: https://upload.wikimedia.org/wikipedia/commons/8/86/7-segment_deg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charh| image:: https://upload.wikimedia.org/wikipedia/commons/d/d9/7-segment_cefg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charn| image:: https://upload.wikimedia.org/wikipedia/commons/3/37/7-segment_ceg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charO| image:: https://upload.wikimedia.org/wikipedia/commons/4/4e/7-segment_cdeg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charr| image:: https://upload.wikimedia.org/wikipedia/commons/a/a6/7-segment_eg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |chart| image:: https://upload.wikimedia.org/wikipedia/commons/9/92/7-segment_defg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charu| image:: https://upload.wikimedia.org/wikipedia/commons/c/c8/7-segment_cde.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |charP| image:: https://upload.wikimedia.org/wikipedia/commons/8/8e/7-segment_abefg.svg
+   :width: 50pt
+   :height: 50pt
+   
+.. |chary| image:: https://upload.wikimedia.org/wikipedia/commons/6/69/7-segment_bcdfg.svg
+   :width: 50pt
+   :height: 50pt
+   
 
 Example
 -------
