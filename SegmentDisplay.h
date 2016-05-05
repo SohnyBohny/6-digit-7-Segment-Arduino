@@ -58,6 +58,23 @@ class SegmentDisplay {
                     int punkt);
 
     // --------------------------------------------
+    
+    //! show a String on Display
+    /*! 
+     \param string String showing on the Display   
+    */
+    void showString (String string);
+    
+    // --------------------------------------------
+    
+    //! check if charakter is legal
+    /*! 
+     \param char to check
+     \return bool - true if legal
+    */
+    bool isLegal (char check);
+    
+    // --------------------------------------------
 
     //! to talk with the display
     /*!
