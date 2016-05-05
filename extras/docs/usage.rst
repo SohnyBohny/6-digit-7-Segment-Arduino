@@ -230,12 +230,12 @@ Example
   void loop() {
   
     char tempTest[6][2] = {
-      { '1', '.'},
+      {'1', '.'},
       {'2', 'X'},
       {'3', '.'},
       {'4', 'X'},
       {'5', '.'},
-      {'6', 'X'
+      {'6', 'X'}
     };
 
     segmentDisplay.showChar(tempTest , 1000); // call display to show "1.23.45.6" for 1s
