@@ -53,12 +53,19 @@ SegmentDisplay::SegmentDisplay (int latchPin,
 }
 
 void SegmentDisplay::showString (String string){
-	char resorce[];
-	string.toCharArray(resorce);
+	char resorce[string.length()];
+	string.toCharArray(resorce,string.length());
 	char toShow[6][2];
 	
-	for(i=0;i<(sizeof(resorce)/sizeof(char))+6){
-		toShow[6][2] = {{'X','X'},{'X','X'},{'X','X'},{'X','X'},{'X','X'},{'X','X'}};
+	for(int i=0;i<(sizeof(resorce)/sizeof(char))+6;i++){
+		char toShow[6][2] = {
+    {'X', 'X'},
+    {'X', 'X'},
+    {'X', 'X'},
+    {'X', 'X'},
+    {'X', 'X'},
+    {'X', 'X'}
+  };
 		if(i<=sizeof(resorce)/sizeof(char)){
 			toShow[5][0]=resorce[i];
 		}
@@ -135,17 +142,11 @@ bool SegmentDisplay::isLegal (char check){
         case 'b':
            numberToShift = B1100111;
           break;
-        case 'C':
-           numberToShift = B1001011;
-          break;
         case 'd':
            numberToShift = B1110101;
           break;
         case 'E':
            numberToShift = B1001111;
-          break;
-        case 'F':
-           numberToShift = B0001111;
           break;
         case 'G':
            numberToShift = B1101011;
@@ -253,17 +254,11 @@ void SegmentDisplay::showChar (char displayResorce[6][2], int delayTime) {
         case 'b':
            numberToShift = B1100111;
           break;
-        case 'C':
-           numberToShift = B1001011;
-          break;
         case 'd':
            numberToShift = B1110101;
           break;
         case 'E':
            numberToShift = B1001111;
-          break;
-        case 'F':
-           numberToShift = B0001111;
           break;
         case 'G':
            numberToShift = B1101011;
