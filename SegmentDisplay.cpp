@@ -52,6 +52,150 @@ SegmentDisplay::SegmentDisplay (int latchPin,
   pinMode(punkt, OUTPUT);
 }
 
+void SegmentDisplay::showString (String string){
+	char resorce[];
+	string.toCharArray(resorce);
+	char toShow[6][2];
+	
+	for(i=0;i<(sizeof(resorce)/sizeof(char))+6){
+		toShow[6][2] = {{'X','X'},{'X','X'},{'X','X'},{'X','X'},{'X','X'},{'X','X'}};
+		if(i<=sizeof(resorce)/sizeof(char)){
+			toShow[5][0]=resorce[i];
+		}
+		if(i<=(sizeof(resorce)/sizeof(char))+1 && i>=1){
+			toShow[4][0]=resorce[i-1];
+		}
+		if(i<=(sizeof(resorce)/sizeof(char))+2 && i>=2){
+			toShow[3][0]=resorce[i-2];
+		}
+		if(i<=(sizeof(resorce)/sizeof(char))+3 && i>=3){
+			toShow[2][0]=resorce[i-3];
+		}
+		if(i<=(sizeof(resorce)/sizeof(char))+4 && i>=4){
+			toShow[1][0]=resorce[i-4];
+		}
+		if(i<=(sizeof(resorce)/sizeof(char))+5 && i>=5){
+			toShow[0][0]=resorce[i-5];
+		}
+		showChar(toShow,500);
+	}
+}
+
+bool SegmentDisplay::isLegal (char check){
+	byte numberToShift = B0;
+	switch (check) {
+        case '1':
+           numberToShift = B0110000;
+          break;
+        case '2':
+           numberToShift = B1011101;
+          break;
+        case '3':
+           numberToShift = B1111100;
+          break;
+        case '4':
+           numberToShift = B0110110;
+          break;
+        case '5':
+           numberToShift = B1101110;
+          break;
+        case '6':
+           numberToShift = B1101111;
+          break;
+        case '7':
+           numberToShift = B0111000;
+          break;
+        case '8':
+           numberToShift = B11111111;
+          break;
+        case '9':
+           numberToShift = B1111110;
+          break;
+        case '0':
+           numberToShift = B1111011;
+          break;
+        case 'o':
+           numberToShift = B0011110;
+          break;
+        case 'C':
+           numberToShift = B1001011;
+          break;
+        case 'F':
+           numberToShift = B0001111;
+          break;
+        case '-':
+           numberToShift = B0000100;
+          break;
+        case 'X':
+           numberToShift = B0;
+          break;
+        case 'A':
+           numberToShift = B0111111;
+          break;
+        case 'b':
+           numberToShift = B1100111;
+          break;
+        case 'C':
+           numberToShift = B1001011;
+          break;
+        case 'd':
+           numberToShift = B1110101;
+          break;
+        case 'E':
+           numberToShift = B1001111;
+          break;
+        case 'F':
+           numberToShift = B0001111;
+          break;
+        case 'G':
+           numberToShift = B1101011;
+          break;
+        case 'H':
+           numberToShift = B0110111;
+          break;
+        case 'I':
+           numberToShift = B0000011;
+          break;
+        case 'J':
+           numberToShift = B1110000;
+          break;
+        case 'L':
+           numberToShift = B1000011;
+          break;
+        case 'U':
+           numberToShift = B1110011;
+          break;
+        case 'c':
+           numberToShift = B1000101;
+          break;
+        case 'h':
+           numberToShift = B0100111;
+          break;
+        case 'n':
+           numberToShift = B0100101;
+          break;
+        case 'O':
+           numberToShift = B1100101;
+          break;
+        case 'r':
+           numberToShift = B0000101;
+          break;
+        case 't':
+           numberToShift = B1000111;
+          break;
+        case 'u':
+           numberToShift = B1100001;
+          break;
+        case 'p':
+           numberToShift = B0011111;
+          break;
+        case 'y':
+           numberToShift = B1110110;
+          break;
+      }
+      return numberToShift != B0 || check == 'X'; 
+}
+
 void SegmentDisplay::showChar (char displayResorce[6][2], int delayTime) {
   while (delayTime > 0) {
     byte numberToShift = B0 ;
