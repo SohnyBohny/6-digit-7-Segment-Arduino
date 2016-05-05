@@ -103,6 +103,69 @@ void SegmentDisplay::showChar (char displayResorce[6][2], int delayTime) {
         case 'X':
            numberToShift = B0;
           break;
+        case 'A':
+           numberToShift = B0111111;
+          break;
+        case 'b':
+           numberToShift = B1100111;
+          break;
+        case 'C':
+           numberToShift = B1001011;
+          break;
+        case 'd':
+           numberToShift = B1110101;
+          break;
+        case 'E':
+           numberToShift = B1001111;
+          break;
+        case 'F':
+           numberToShift = B0001111;
+          break;
+        case 'G':
+           numberToShift = B1101011;
+          break;
+        case 'H':
+           numberToShift = B0110111;
+          break;
+        case 'I':
+           numberToShift = B0000011;
+          break;
+        case 'J':
+           numberToShift = B1110000;
+          break;
+        case 'L':
+           numberToShift = B1000011;
+          break;
+        case 'U':
+           numberToShift = B1110011;
+          break;
+        case 'c':
+           numberToShift = B1000101;
+          break;
+        case 'h':
+           numberToShift = B0100111;
+          break;
+        case 'n':
+           numberToShift = B0100101;
+          break;
+        case 'O':
+           numberToShift = B1100101;
+          break;
+        case 'r':
+           numberToShift = B0000101;
+          break;
+        case 't':
+           numberToShift = B1000111;
+          break;
+        case 'u':
+           numberToShift = B1100001;
+          break;
+        case 'p':
+           numberToShift = B0011111;
+          break;
+        case 'y':
+           numberToShift = B1110110;
+          break;
       }
 
       updateShiftRegister(numberToShift) ;
