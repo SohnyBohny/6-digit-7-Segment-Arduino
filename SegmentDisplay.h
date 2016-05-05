@@ -5,12 +5,11 @@
 
 
 /*!
-    \brief     Pretty nice class.
-    \details   This class is used to demonstrate a number of section commands.
+    \brief     6-digit-7-Segment-Arduino-Library
+    \details   A Arduino-Library that allows you to easily controll a 6-digit 7-Segment Multiplex Matrix (e.g. E60301-L-O-0-W) with a 8-Bit-Shiftregister (e.g. M74HC595)
     \author    SohnyBohny
-    \version   1.0.0
-    \date      2016-04-02
-    \warning   Not tested yet
+    \version   2.0.0
+    \date      2016-05-05
     \copyright GNU GENERAL PUBLIC LICENSE Version 3
 */
 class SegmentDisplay {
