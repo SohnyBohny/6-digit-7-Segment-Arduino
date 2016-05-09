@@ -1,10 +1,10 @@
-/* 
- * This is a advanced example for the "six-digit-seven-segment" Library
- * for more information see https://6-digit-7-segment-arduino.readthedocs.org
- * by SohnyBohny
+/*
+   This is a advanced example for the "six-digit-seven-segment" Library
+   for more information see https://6-digit-7-segment-arduino.readthedocs.org
+   by SohnyBohny
 */
 
-#include <SegmentDisplay.h>
+#include "SegmentDisplay.h"
 int latchPin = 9; // Shiftregister
 int clockPin = 10;
 int dataPin = 8;
@@ -27,8 +27,8 @@ SegmentDisplay segmentDisplay(latchPin, // tell the library the pins -> pinMode 
                               digit5,
                               digit6,
                               punkt);
-                              
-  String input = "5tArt";
+
+String input = "5tArt";
 
 void setup() {
   Serial.begin(9600);
@@ -38,36 +38,35 @@ void setup() {
   Serial.println("o(°)\tC\tF\tA\tb\tC\td\tE\tF\tG\tH");
   Serial.println("I\tJ\tL\tU\tc\th\tn\tO(o)\t0(O)\tr\tt");
   Serial.println("u\tp\ty\t\tX(for SPACE)");
-  
+
   Serial.flush();
 }
 
 void loop() {
-  bool corectChars = true;
-  if(Serial.available()>0){
-    corectChars = true;
-    char inChar = '';
-    while(Serial.available()>0){
-      inChar = serial.read();
-      if(!segmentDisplay.isLegal(inChar)){
+  if (Serial.available() > 0) {
+    bool corectChars = true;
+    char inChar;
+    while (Serial.available() > 0) {
+      inChar = Serial.read();
+      if (!segmentDisplay.isLegal(inChar)) {
         Serial.println("ERROR ------ " + String(inChar) + "is not legal");
         corectChars = false;
       }
       input += inChar;
     }
-    if(!segmentDisplay.isLegal(inChar)){
-        Serial.println("ERROR ------ " + String(inChar) + "is not legal");
-        corectChars = false;
-      }
+    if (!segmentDisplay.isLegal(inChar)) {
+      Serial.println("ERROR ------ " + String(inChar) + "is not legal");
+      corectChars = false;
+    }
     input += inChar;
-    
-    if(!corectChars){
+
+    if (!corectChars) {
       input = "tryXAGAIn";
     }
   }
 
-  while(Serial.available()==0){
-    segmentDisplay.showString(input);  
+  while (Serial.available() == 0) {
+    segmentDisplay.showString(input);
   }
 
 }
