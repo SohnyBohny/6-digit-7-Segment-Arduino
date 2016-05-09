@@ -1,3 +1,5 @@
-SegmentDisplay\tKEYWORD1
-showChar\tKEYWORD2
-updateShiftRegister\tKEYWORD2
+SegmentDisplay	KEYWORD1
+showChar	KEYWORD2
+updateShiftRegister	KEYWORD2
+showString	KEYWORD2
+isLegal	KEYWORD2
