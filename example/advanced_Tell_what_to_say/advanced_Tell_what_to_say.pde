@@ -4,18 +4,18 @@
    by SohnyBohny
 */
 
-#include "SegmentDisplay.h"
-int latchPin = 9; // Shiftregister
-int clockPin = 10;
-int dataPin = 8;
+#include <SegmentDisplay.h>
+int latchPin = 10; // Shiftregister
+int clockPin = 11;
+int dataPin = 9;
 
-int digit1 = 6; // cathode of the digits
-int digit2 = 1;
-int digit3 = 2;
-int digit4 = 3;
-int digit5 = 4;
-int digit6 = 5;
-int punkt = 7; // anode of the DP
+int digit1 = 7; // cathode of the digits
+int digit2 = 2;
+int digit3 = 3;
+int digit4 = 4;
+int digit5 = 5;
+int digit6 = 6;
+int punkt = 8; // anode of the DP
 
 SegmentDisplay segmentDisplay(latchPin, // tell the library the pins -> pinMode will be called
                               clockPin,
@@ -44,6 +44,7 @@ void setup() {
 
 void loop() {
   if (Serial.available() > 0) {
+    input = "";
     bool corectChars = true;
     char inChar;
     while (Serial.available() > 0) {
@@ -54,11 +55,6 @@ void loop() {
       }
       input += inChar;
     }
-    if (!segmentDisplay.isLegal(inChar)) {
-      Serial.println("ERROR ------ " + String(inChar) + "is not legal");
-      corectChars = false;
-    }
-    input += inChar;
 
     if (!corectChars) {
       input = "tryXAGAIn";
