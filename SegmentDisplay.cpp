@@ -54,7 +54,7 @@ SegmentDisplay::SegmentDisplay (int latchPin,
 
 void SegmentDisplay::showString (String string){
 	char resorce[string.length()];
-	string.toCharArray(resorce,string.length());
+	string.toCharArray(resorce,string.length()+1);
 	char toShow[6][2];
 	
 	for(int i=0;i<(sizeof(resorce)/sizeof(char))+5;i++){
