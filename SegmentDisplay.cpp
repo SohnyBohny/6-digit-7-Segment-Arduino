@@ -57,7 +57,7 @@ void SegmentDisplay::showString (String string){
 	string.toCharArray(resorce,string.length());
 	char toShow[6][2];
 	
-	for(int i=0;i<(sizeof(resorce)/sizeof(char))+6;i++){
+	for(int i=0;i<(sizeof(resorce)/sizeof(char))+5;i++){
 		char toShow[6][2] = {
     {'X', 'X'},
     {'X', 'X'},
